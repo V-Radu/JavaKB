@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Variables {
 
@@ -18,7 +19,12 @@ public class Variables {
 	//conditionals
 	boolean isTrue = false; //or true only
 	
-		
-		
 	
+	public static void Calculator() {
+		//Math
+		Scanner input = new Scanner(System.in);
+		int num1 = input.nextInt();
+		int num2 = input.nextInt();
+		System.out.println(num1 + num2);
+	}
 }
